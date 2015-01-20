@@ -6,16 +6,6 @@
  */
 
 /**
- * Implements hook_help().
- */
-function markdown_help($path, $arg) {
-  switch ($path) {
-    case 'admin/help#markdown':
-      return t('<p>The Markdown filter allows you to enter content using <a href="http://daringfireball.net/projects/markdown">Markdown</a>, a simple plain-text syntax that is transformed into valid XHTML.</p>');
-  }
-}
-
-/**
  * Implements hook_filter_info().
  */
 function markdown_filter_info() {
@@ -24,7 +14,7 @@ function markdown_filter_info() {
     'description' => t('Allows content to be submitted using Markdown, a simple plain-text syntax that is filtered into valid XHTML.'),
     'process callback' => '_filter_markdown',
     'settings callback' => '_filter_markdown_settings',
-    'tips callback'  => '_filter_markdown_tips',
+    'tips callback' => '_filter_markdown_tips',
   );
 
   return $filters;
@@ -87,7 +77,7 @@ function _markdown_help_block() {
 ##### Header 5 #####
 (Hashes on right are optional)
 
-Link [Drupal](http://drupal.org)
+Link [Backdrop CMS](https://backdropcms.org/)
 
 Inline markup like _italics_,
  **bold**, and `code()`.
@@ -123,7 +113,7 @@ function _filter_markdown($text, $format) {
 /**
  * Filter settings callback. Just provides a version overview.
  */
-function _filter_markdown_settings($form, &$form_state, $filter, $format, $defaults) {
+function _filter_markdown_settings($form, &$form_state, $filter, $format) {
   module_load_include('php', 'markdown', 'markdown');
 
   $settings['markdown_wrapper'] = array(
@@ -142,3 +132,4 @@ function _filter_markdown_settings($form, &$form_state, $filter, $format, $defau
 
   return $settings;
 }
+
