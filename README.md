@@ -18,7 +18,7 @@ Read more about Markdown at:
 - PHP Markdown Extra by Michel Fortin
   <http://michelf.ca/projects/php-markdown/extra/>
 
-*Important note about running Markdown with other input filters*
+**Important note about running Markdown with other input filters**
 
 Markdown may conflict with other input filters, depending on the order
 in which filters are configured to apply. If using Markdown produces
