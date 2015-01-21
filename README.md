@@ -18,8 +18,7 @@ Read more about Markdown at:
 - PHP Markdown Extra by Michel Fortin
   <http://michelf.ca/projects/php-markdown/extra/>
 
-Important note about running Markdown with other input filters:
---------------------------------------------------------------
+*Important note about running Markdown with other input filters*
 
 Markdown may conflict with other input filters, depending on the order
 in which filters are configured to apply. If using Markdown produces
@@ -37,7 +36,7 @@ text is perserved, run it after the Markdown filter. Note that
 blockquoting with Markdown doesn't work when run after "Limit allowed
 HTML tags". It converts the ">".
 
-Installation:
+Installation
 ------------
 - Install this module using the official Backdrop CMS instructions at
   https://backdropcms.org/guide/modules
@@ -55,7 +54,7 @@ Maintainers
 
 - Chris Herberte (https://github.com/chrisherberte)
 
-Credits:
+Credits
 -------
 - Markdown created by John Gruber: <http://daringfireball.net>
 - PHP executions by Michel Fortin: <http://www.michelf.com/>
