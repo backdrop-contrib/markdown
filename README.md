@@ -53,9 +53,12 @@ Maintainers
 -----------
 
 - Chris Herberte (https://github.com/chrisherberte)
+- Fredrik Jonsson (https://github.com/frjo)
+- David Norman (https://github.com/deekayen)
 
 Credits
 -------
 - Markdown created by John Gruber: <http://daringfireball.net>
 - PHP executions by Michel Fortin: <http://www.michelf.com/>
 - Drupal Markdown filter originally by justin2pin: <https://www.drupal.org/project/markdown>
+- Ported to Backdrop by Chris Herberte (https://github.com/chrisherberte)
