@@ -4,3 +4,4 @@ package = "Input filters"
 backdrop = 1.x
 type = module
 configure = admin/config/content/formats
+php = 5.3
