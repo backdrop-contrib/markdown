@@ -54,7 +54,6 @@ Maintainers
 
 - Chris Herberte (https://github.com/chrisherberte)
 - Fredrik Jonsson (https://github.com/frjo)
-- David Norman (https://github.com/deekayen)
 
 Credits
 -------
